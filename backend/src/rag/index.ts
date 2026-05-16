@@ -50,6 +50,8 @@ function enrichResults(
     const row = rowMap.get(result.scheme_id);
     return {
       ...result,
+      category: row?.category || 'General',
+      ministry: row?.ministry || 'Government of India',
       apply_url: row?.apply_url,
       distance: row?.distance,
     };

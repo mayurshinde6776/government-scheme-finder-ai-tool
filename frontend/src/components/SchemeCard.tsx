@@ -57,7 +57,7 @@ export function SchemeCard({
 
       <div className="mt-3">
         <span className="inline-block bg-indigo-50 text-indigo-600 text-xs rounded-full px-2.5 py-1 font-medium capitalize">
-          {category.replace('_', ' ')}
+          {category ? category.replace('_', ' ') : 'General'}
         </span>
       </div>
 

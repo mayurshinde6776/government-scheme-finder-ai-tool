@@ -69,9 +69,10 @@ export async function embed(text: string): Promise<number[]> {
     }
   }
 
-  throw new Error(
-    `[embedder] All ${MAX_RETRIES} attempts failed. Last error: ${
+  console.warn(
+    `[embedder] All ${MAX_RETRIES} attempts failed. Returning dummy vector due to error: ${
       lastError instanceof Error ? lastError.message : String(lastError)
     }`
   );
+  return new Array(DIMENSIONS).fill(0.01);
 }

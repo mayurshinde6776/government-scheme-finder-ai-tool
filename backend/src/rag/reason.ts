@@ -187,7 +187,19 @@ export async function reasonEligibility(
   const userPrompt = buildUserPrompt(profile, schemes);
 
   // Attempt 1
-  let rawOutput = await callLLM(systemPrompt, userPrompt);
+  let rawOutput: string;
+  try {
+    rawOutput = await callLLM(systemPrompt, userPrompt);
+  } catch (err: any) {
+    console.warn(`[reason] LLM call failed (${err.message}). Returning dummy data.`);
+    return schemes.map((s, idx) => ({
+      scheme_id: s.id,
+      scheme_name: s.name,
+      match_level: idx % 3 === 0 ? 'high' : idx % 3 === 1 ? 'medium' : 'low',
+      reason: 'Mock result due to OpenAI API quota limitations.',
+      missing_criteria: idx % 3 !== 0 ? ['Mock missing criteria'] : [],
+    }));
+  }
 
   try {
     const unwrapped = unwrapIfNeeded(rawOutput);

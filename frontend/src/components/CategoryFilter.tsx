@@ -28,7 +28,7 @@ export function CategoryFilter({ categories, selectedCategory, onSelect }: Props
                 : 'text-slate-500 border-transparent hover:text-slate-700 hover:border-slate-300'
             }`}
           >
-            {cat.replace('_', ' ')}
+            {cat ? cat.replace('_', ' ') : 'General'}
           </button>
         ))}
       </div>
