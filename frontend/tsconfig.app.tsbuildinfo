@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/stepindicator.tsx","./src/components/profileform/step1personal.tsx","./src/components/profileform/step2economic.tsx","./src/components/profileform/step3category.tsx","./src/components/profileform/index.tsx","./src/hooks/useprofileform.ts"],"version":"5.9.3"}
