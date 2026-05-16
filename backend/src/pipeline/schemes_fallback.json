@@ -1,0 +1,222 @@
+[
+  {
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "category": "agriculture",
+    "state": null,
+    "description": "Income support of Rs 6000/year to all landholding farmer families across India.",
+    "eligibility_text": "All landholder farmer families in India whose names appear in land records of the respective State/UT are eligible. A farmer family comprises husband, wife and minor children. Excluded categories: (a) institutional land holders; (b) farmer families holding constitutional posts; (c) serving/retired officers of Central/State Government earning monthly pension above Rs 10,000; (d) Income Tax payees of the last assessment year; (e) Doctors, Engineers, Lawyers, Chartered Accountants, and Architects in professional practice.",
+    "benefits_text": "Rs 6,000 per year in three equal instalments of Rs 2,000 each, directly credited to Aadhaar-linked bank accounts via DBT every four months.",
+    "documents_required": ["Aadhaar Card", "Land records / Khatian", "Aadhaar-linked bank passbook", "Mobile number"],
+    "apply_url": "https://pmkisan.gov.in/"
+  },
+  {
+    "name": "PMAY-Urban (Pradhan Mantri Awas Yojana – Urban)",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "category": "housing",
+    "state": null,
+    "description": "Affordable housing for urban poor through credit-linked subsidy and direct construction assistance.",
+    "eligibility_text": "Urban households belonging to EWS (annual income up to Rs 3 lakh), LIG (Rs 3–6 lakh), MIG-I (Rs 6–12 lakh), or MIG-II (Rs 12–18 lakh). The beneficiary family must not own a pucca house anywhere in India in the name of any family member. For EWS/LIG, ownership must be in the name of the adult female member or joint ownership with a female member, unless no adult female member exists in the household. SC/ST/OBC, persons with disabilities, and transgender applicants receive preference.",
+    "benefits_text": "Interest subsidy up to 6.5% on home loans for EWS/LIG (loan cap Rs 6 lakh, 20-year tenure). Central assistance of Rs 1.5 lakh per EWS house under BLC vertical.",
+    "documents_required": ["Aadhaar Card", "Income certificate", "Caste certificate", "Affidavit of no pucca house ownership", "Address proof", "Passport-size photograph"],
+    "apply_url": "https://pmaymis.gov.in/"
+  },
+  {
+    "name": "Ayushman Bharat PM-JAY",
+    "ministry": "Ministry of Health and Family Welfare",
+    "category": "health",
+    "state": null,
+    "description": "Health insurance cover of Rs 5 lakh per family per year for secondary and tertiary hospitalisation.",
+    "eligibility_text": "Eligibility is based on the Socio-Economic Caste Census (SECC) 2011. Rural deprivation criteria include: households with no adult member aged 16–59; households with disabled member and no able-bodied adult; SC/ST households; landless households earning mainly from casual manual labour; households in single room with no pucca walls or roof. Urban eligible occupational categories include: rag pickers, domestic workers, street vendors, construction workers, plumbers, masons, painters, sweepers, tailors, transport workers, washer-men, and beggars. No income cap or family-size restriction applies.",
+    "benefits_text": "Cashless hospitalisation up to Rs 5 lakh per family per year (floater). Covers pre-existing conditions from day 1, 3-day pre-hospitalisation, 15-day post-hospitalisation. Over 1,929 treatment packages across 27 specialities. Portable across 25,000+ empanelled hospitals.",
+    "documents_required": ["Aadhaar Card", "Ration card", "Ayushman Card / SECC confirmation"],
+    "apply_url": "https://pmjay.gov.in/"
+  },
+  {
+    "name": "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act)",
+    "ministry": "Ministry of Rural Development",
+    "category": "employment",
+    "state": null,
+    "description": "Legally guaranteed 100 days of wage employment per year to rural households willing to do unskilled manual work.",
+    "eligibility_text": "Any adult member (18 years or above) of a rural household willing to do unskilled manual work is eligible. The household must reside in a Gram Panchayat area. There is no income or caste restriction. The household registers with the local Gram Panchayat by submitting an application listing adult members who wish to work. Priority is given to SC/ST, women, and persons with disabilities. The entitlement of 100 days is per household per financial year and is not transferable.",
+    "benefits_text": "100 days of guaranteed wage employment per household per year. State-notified minimum wages (Rs 236–357/day as of 2024-25) paid within 15 days directly to the worker's bank/post office account. Unemployment allowance if work is not provided within 15 days of demand.",
+    "documents_required": ["MGNREGA Job Card (from Gram Panchayat)", "Aadhaar Card", "Aadhaar-linked bank/post office account", "Proof of residence"],
+    "apply_url": "https://nrega.nic.in/"
+  },
+  {
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "ministry": "Ministry of Finance",
+    "category": "social_welfare",
+    "state": null,
+    "description": "One-year renewable life insurance cover of Rs 2 lakh on death due to any cause at a low annual premium.",
+    "eligibility_text": "Individuals aged between 18 years and 50 years (age at last birthday) holding a savings bank or post office account are eligible. The subscriber must consent to annual auto-debit of the premium. A person holding multiple savings accounts can enrol through only one account. Coverage terminates on attaining age 55, closure of the linked bank account, or insufficient balance for premium debit. Previously exited members may re-join subject to payment of full premium and submission of a good-health declaration.",
+    "benefits_text": "Death benefit of Rs 2,00,000 payable to the nominee on death from any cause. Annual premium of Rs 436 (2024-25), auto-debited from the savings account on or before 31 May each year, covering 1 June to 31 May.",
+    "documents_required": ["Savings bank / post office account", "Aadhaar Card", "Consent-cum-declaration form", "Nominee details"],
+    "apply_url": "https://jansuraksha.gov.in/"
+  },
+  {
+    "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "ministry": "Ministry of Finance",
+    "category": "social_welfare",
+    "state": null,
+    "description": "Accidental death and disability insurance cover of Rs 2 lakh at a very low annual premium of Rs 20.",
+    "eligibility_text": "Individuals aged between 18 years and 70 years (age at last birthday) with a savings bank or post office account are eligible. The subscriber must give their consent to auto-debit of the annual premium from the linked bank account. A person with multiple savings accounts can enrol through only one account. Coverage terminates on attaining age 70, closure of the bank account, or insufficient balance for premium debit.",
+    "benefits_text": "Rs 2,00,000 for accidental death or total permanent disability (loss of both eyes, or both hands/feet, or one eye and one hand/foot). Rs 1,00,000 for partial permanent disability (loss of one eye or one hand/foot). Annual premium of Rs 20 auto-debited from linked bank account.",
+    "documents_required": ["Savings bank account", "Aadhaar Card", "Consent form", "Nominee details"],
+    "apply_url": "https://jansuraksha.gov.in/"
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana (SSY)",
+    "ministry": "Ministry of Finance",
+    "category": "women_children",
+    "state": null,
+    "description": "Small-deposit savings scheme for girl children offering high interest rates and full tax exemption.",
+    "eligibility_text": "The parent or legal guardian of a girl child who is a resident Indian citizen may open an account from the girl's birth until she attains the age of 10 years. Only one account is permitted per girl child. A maximum of two SSY accounts may be operated per family; a third account is allowed in case of twin girls in the second birth or three girl children in the first birth, supported by documentary proof. Non-Resident Indians are not eligible; if the account holder subsequently becomes an NRI or loses Indian citizenship the account is deemed closed from the date of status change.",
+    "benefits_text": "Interest rate of 8.2% p.a. (compounded annually, revised quarterly). Minimum deposit Rs 250/year; maximum Rs 1.5 lakh/year. Account matures 21 years from opening or at marriage after age 18. Partial withdrawal (up to 50%) permitted after girl attains 18 years for higher education. EEE tax status: deduction u/s 80C, interest and maturity fully tax-free.",
+    "documents_required": ["Girl child's birth certificate", "Parent/guardian identity proof (Aadhaar/PAN/Passport)", "Address proof of parent/guardian", "Passport-size photographs"],
+    "apply_url": "https://www.india.gov.in/sukanya-samriddhi-account"
+  },
+  {
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "category": "social_welfare",
+    "state": null,
+    "description": "Free LPG connections to BPL women to replace unclean cooking fuels and protect health.",
+    "eligibility_text": "Adult women (18 years or above) belonging to Below Poverty Line (BPL) households who do not already have an LPG connection registered in the name of any family member at the same address are eligible. Priority categories include: beneficiaries of PMAY-Gramin; Antyodaya Anna Yojana (AAY) ration card holders; households listed under Most Backward Classes in SECC data; Tea Garden and Ex-Tea Garden Tribe families in Assam; forest dwellers; residents of river islands; SC/ST households; and households covered under PM Garib Kalyan Yojana. The connection must be registered in the name of the adult female member of the household.",
+    "benefits_text": "One free LPG connection (pressure regulator, safety hose, booklet, cylinder). Under Ujjwala 2.0, the first refill and a hot plate are also provided free. Cylinder and regulator deposit is borne by the Oil Marketing Company. Subsidised refills under PAHAL-DBTL scheme.",
+    "documents_required": ["BPL Ration Card / AAY card / SECC printout", "Aadhaar Card of female applicant", "Aadhaar-linked bank passbook", "Passport-size photograph", "Self-declaration of no existing LPG connection"],
+    "apply_url": "https://www.pmuy.gov.in/"
+  },
+  {
+    "name": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi)",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "category": "employment",
+    "state": null,
+    "description": "Micro-credit loans for urban street vendors to restart livelihoods affected by Covid-19.",
+    "eligibility_text": "Street vendors vending in any urban area on or before 24 March 2020 are eligible, covering: (a) vendors with a Certificate of Vending (CoV) or Identity Card issued by the Urban Local Body (ULB); (b) vendors identified in ULB survey but not yet issued CoV/ID, given a Letter of Recommendation (LoR) by ULB or Town Vending Committee (TVC); (c) vendors left out of the ULB survey or who started vending after the survey, given LoR by ULB/TVC; (d) vendors from surrounding peri-urban or rural areas vending within ULB limits. No income, caste, or gender restriction applies.",
+    "benefits_text": "Working capital loans: Rs 10,000 (first loan), Rs 20,000 (second), Rs 50,000 (third) on timely repayment. Interest subsidy of 7% p.a. credited quarterly to bank account. Monthly cashback incentives up to Rs 1,200/year for digital payments. Access to PMJJBY, PMSBY, and Jan Dhan Yojana.",
+    "documents_required": ["Certificate of Vending / Letter of Recommendation from ULB or TVC", "Aadhaar Card", "Aadhaar-linked bank passbook", "Passport-size photograph"],
+    "apply_url": "https://pmsvanidhi.mohua.gov.in/"
+  },
+  {
+    "name": "National Scholarship Portal – Central Post-Matric Scholarship for SC Students",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "category": "education",
+    "state": null,
+    "description": "Post-matric scholarships for SC students to pursue higher education after Class 10.",
+    "eligibility_text": "The applicant must be a Scheduled Caste student studying at the post-matric or post-secondary stage in a recognised institution. Parental/guardian annual income must not exceed Rs 2.5 lakh from all sources. The student must not be receiving any other scholarship from the Central or State Government. Students pursuing correspondence or distance education courses are also eligible. The student must have passed the qualifying examination and must not have failed or changed the subject/faculty in the stage of study for which they seek a scholarship.",
+    "benefits_text": "Maintenance allowance of Rs 1,200–3,000 per month depending on course level and hosteller/day-scholar status. Full reimbursement of compulsory non-refundable fees. Study tour charges up to Rs 1,600/year. Thesis typing/printing charges for research scholars.",
+    "documents_required": ["Aadhaar Card", "Caste (SC) certificate", "Income certificate (under Rs 2.5 lakh)", "Previous class marksheet", "Bonafide student certificate", "Aadhaar-linked bank passbook", "Passport-size photograph"],
+    "apply_url": "https://scholarships.gov.in/"
+  },
+  {
+    "name": "National Scholarship Portal – Central Sector Scheme (Merit-Based)",
+    "ministry": "Ministry of Education",
+    "category": "education",
+    "state": null,
+    "description": "Merit-based scholarship for college and university students from families with income below Rs 8 lakh.",
+    "eligibility_text": "The applicant must be a fresh entrant to undergraduate or postgraduate programmes in colleges/universities recognised by UGC. The student must have scored above the 80th percentile of marks in the Class 12 board examination of their respective board. Annual family income from all sources must not exceed Rs 8 lakh. Students pursuing regular (not distance) courses are eligible. The scholarship is not available for professional courses with a fee-reimbursement scheme. A student can hold only one scholarship at a time through NSP.",
+    "benefits_text": "Rs 10,000 per year for undergraduate students (for up to 3 years). Rs 20,000 per year for postgraduate students (for up to 2 years). Paid directly into the student's Aadhaar-linked bank account via DBT.",
+    "documents_required": ["Aadhaar Card", "Class 12 marksheet", "Income certificate (below Rs 8 lakh)", "Bonafide certificate from institution", "Aadhaar-linked bank passbook", "Passport-size photograph"],
+    "apply_url": "https://scholarships.gov.in/"
+  },
+  {
+    "name": "Beti Bachao Beti Padhao (BBBP)",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "women_children",
+    "state": null,
+    "description": "Tri-ministerial campaign to address declining child sex ratio and promote girl education.",
+    "eligibility_text": "The scheme targets all families, communities, and institutions with a special focus on districts where the Child Sex Ratio (CSR) is below 918 girls per 1,000 boys as per census data. Primary beneficiaries are families with girl children aged 0 to 18 years. There are no income, caste, or community restrictions for participation in awareness activities. Financial benefits are delivered through linked schemes (e.g., Sukanya Samriddhi Yojana). Girls enrolled in government schools receive convergent benefits under ICDS and Sarva Shiksha Abhiyan.",
+    "benefits_text": "No direct cash transfers; delivers improved CSR, school enrolment and retention of girls, institutional deliveries, and convergence with SSY, ICDS, and education schemes. Scholarships for meritorious girl students and protection against gender-biased sex selection.",
+    "documents_required": ["Birth certificate of girl child", "Aadhaar Card of parents/guardians", "School enrolment records (for education benefits)"],
+    "apply_url": "https://wcd.nic.in/bbbp-schemes"
+  },
+  {
+    "name": "PMAY-Gramin (Pradhan Mantri Awas Yojana – Gramin)",
+    "ministry": "Ministry of Rural Development",
+    "category": "housing",
+    "state": null,
+    "description": "Pucca house construction assistance to rural homeless and kutcha-house-dwelling families.",
+    "eligibility_text": "Beneficiaries are selected from the Socio-Economic Caste Census (SECC) 2011 data, prioritising: households with no shelter (homeless); households in 0, 1, or 2-room kutcha wall and kutcha roof houses; households with no adult member between 16 and 59 years; female-headed households with no adult male member aged 16–59; households with a disabled member and no able-bodied adult; SC/ST households; families with no literate adult above 25 years; landless households deriving income mainly from casual labour. Further prioritisation is given to SC/ST, minorities, and persons with disabilities within the eligible pool.",
+    "benefits_text": "Rs 1.20 lakh per house (plain areas) and Rs 1.30 lakh per house (hilly/difficult/IAP districts). Convergence with MGNREGA for 90/95 person-days of unskilled labour. Funds transferred directly to beneficiary's bank account in three instalments linked to construction stages.",
+    "documents_required": ["Aadhaar Card", "SECC 2011 registration", "Bank account passbook", "Land ownership documents (or state alternative for landless)"],
+    "apply_url": "https://pmayg.nic.in/"
+  },
+  {
+    "name": "Kisan Credit Card (KCC)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "category": "agriculture",
+    "state": null,
+    "description": "Flexible revolving credit for farmers to meet crop cultivation expenses and allied activities.",
+    "eligibility_text": "All farmers — individual or joint borrowers who are owner-cultivators — are eligible. Tenant farmers, oral lessees, and share croppers are also eligible. Self-Help Groups (SHGs) or Joint Liability Groups (JLGs) of farmers including tenant farmers and share croppers may apply. Fishermen owning a registered fishing vessel or boat with a valid fishing licence, members of fisheries self-help groups, and fish farmers are eligible for the KCC scheme extended to fisheries. Animal husbandry farmers including those with allied and non-farm activities are also eligible.",
+    "benefits_text": "Short-term credit limit based on scale of finance for the crop grown and the area. Interest subvention: 2% p.a. interest subvention plus 3% prompt repayment incentive, making the effective rate as low as 4% p.a. for loans up to Rs 3 lakh. The card provides revolving credit for up to 5 years with a simple annual review.",
+    "documents_required": ["Aadhaar Card", "Land ownership or tenancy/lease documents", "Passport-size photograph", "Recent passport-sized photo", "Bank account details"],
+    "apply_url": "https://www.nabard.org/content1.aspx?id=572"
+  },
+  {
+    "name": "Atal Pension Yojana (APY)",
+    "ministry": "Ministry of Finance",
+    "category": "social_welfare",
+    "state": null,
+    "description": "Guaranteed pension scheme for workers in the unorganised sector.",
+    "eligibility_text": "Indian citizens aged between 18 and 40 years who have a savings bank account or post office savings account are eligible. The subscriber must not be a member of any statutory social security scheme (EPF, NPS, etc.) and must not be an income tax payer. The account must be linked to Aadhaar. Co-contribution by the Government of India (50% of total contribution or Rs 1,000/year, whichever is lower) is available for 5 years to subscribers who joined between 1 June 2015 and 31 March 2016 and who are not income tax payers and not members of any statutory social security scheme.",
+    "benefits_text": "Guaranteed pension of Rs 1,000, Rs 2,000, Rs 3,000, Rs 4,000, or Rs 5,000 per month from age 60, depending on the contribution amount and age of joining. On the subscriber's death, the spouse receives the same pension; on both their deaths, the accumulated pension wealth is returned to the nominee.",
+    "documents_required": ["Savings bank account or Post Office savings account", "Aadhaar Card", "Mobile number linked to bank account"],
+    "apply_url": "https://npscra.nsdl.co.in/scheme-details.php"
+  },
+  {
+    "name": "PM Kaushal Vikas Yojana (PMKVY 4.0)",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "category": "employment",
+    "state": null,
+    "description": "Free short-term skill training and certification for youth to enhance employability.",
+    "eligibility_text": "Indian nationals who are school/college dropouts or unemployed youth are eligible. There is no minimum educational qualification for most courses; however, certain industry-specific courses require specific prior education or experience as defined in the relevant National Occupational Standards (NOS). Candidates must be Indian citizens and must register on the Skill India Portal. Working professionals are eligible for Recognition of Prior Learning (RPL) assessment and certification. There is no upper age limit; however, youth aged 15–45 years are the primary target group.",
+    "benefits_text": "Free skill training of 150–300 hours duration across 300+ job roles. Post-training monetary reward of Rs 8,000–10,000 on successful certification. Placement assistance through Skill India Portal. Pradhan Mantri Kaushal Kendra (PMKK) training at accredited training centres.",
+    "documents_required": ["Aadhaar Card", "Bank account linked to Aadhaar", "Educational certificates (if applicable)", "Passport-size photograph"],
+    "apply_url": "https://www.pmkvyofficial.org/"
+  },
+  {
+    "name": "Stand Up India",
+    "ministry": "Ministry of Finance (SIDBI)",
+    "category": "employment",
+    "state": null,
+    "description": "Bank loans between Rs 10 lakh and Rs 1 crore to SC/ST and women entrepreneurs for greenfield enterprises.",
+    "eligibility_text": "The scheme is available to SC/ST borrowers and women borrowers above 18 years of age. The loan is for setting up a greenfield enterprise in manufacturing, services, agri-allied activities, or the trading sector. In the case of a non-individual enterprise, at least 51% of the shareholding and controlling stake must be held by an SC/ST or woman entrepreneur. The borrower must not be in default to any bank or financial institution. At least one Scheduled Caste or Scheduled Tribe borrower and at least one woman borrower per bank branch is targeted.",
+    "benefits_text": "Composite loan (term loan + working capital) between Rs 10 lakh and Rs 1 crore. Loan tenure up to 7 years with a moratorium period of up to 18 months. Margin money (promoter contribution) of 25%; convergence with Central/State subsidy schemes to meet margin requirements. Credit Guarantee coverage available under CGFSIL.",
+    "documents_required": ["Aadhaar Card", "Caste certificate (SC/ST)", "Business plan / project report", "Bank account details", "Identity and address proof", "PAN Card"],
+    "apply_url": "https://www.standupmitra.in/"
+  },
+  {
+    "name": "National Food Security Act – Subsidised Foodgrains (NFSA / PDS)",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "category": "social_welfare",
+    "state": null,
+    "description": "Subsidised rice, wheat, and millets through the Public Distribution System to eligible households.",
+    "eligibility_text": "Households covered under the NFSA 2013 are entitled to subsidised foodgrains. Two categories are recognised: (a) Antyodaya Anna Yojana (AAY) households — the poorest of the poor, identified by State Governments — are entitled to 35 kg of foodgrains per household per month; (b) Priority Household (PHH) beneficiaries — those identified by State Governments as per guidelines covering BPL households and those meeting State-defined criteria — are entitled to 5 kg per person per month. The total coverage is limited to 75% of the rural population and 50% of the urban population of each State.",
+    "benefits_text": "Subsidised foodgrains at central issue prices: rice at Rs 3/kg, wheat at Rs 2/kg, and coarse grains at Rs 1/kg (prices revised by State Governments). Supplied through the network of Fair Price Shops (FPS) using Aadhaar-linked ration cards (One Nation One Ration Card portability available).",
+    "documents_required": ["Ration Card (AAY or PHH)", "Aadhaar Card (for ePoS authentication at FPS)", "State-issued family identity documents"],
+    "apply_url": "https://dfpd.gov.in/nfsa.htm"
+  },
+  {
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "ministry": "Ministry of Women and Child Development",
+    "category": "women_children",
+    "state": null,
+    "description": "Maternity benefit programme providing cash incentives to pregnant and lactating women.",
+    "eligibility_text": "All pregnant and lactating women who are 19 years of age or above are eligible for the first live birth. Women who are employed with the Central Government, State Governments, or Public Sector Undertakings and are already receiving paid maternity leave benefits equivalent to or exceeding this scheme are not eligible. The scheme covers the first live birth only (for the second birth, benefit is given only if the second child is a girl). The woman must register at the Anganwadi Centre (AWC) or approved health facility and comply with prescribed maternal and child health (MCH) conditions.",
+    "benefits_text": "Rs 5,000 transferred in two instalments for the first live birth: Rs 3,000 on early registration of pregnancy and at least one ante-natal check-up; Rs 2,000 on registration of child's birth, first round of vaccination, and completion of post-natal check-up. For the second birth (if girl child), Rs 6,000 is paid in one instalment after completion of specified vaccinations.",
+    "documents_required": ["MCP (Mother and Child Protection) Card", "Aadhaar Card of mother", "Aadhaar-linked bank passbook", "Husband's Aadhaar Card", "Proof of marriage (if applicable)"],
+    "apply_url": "https://wcd.nic.in/schemes/pradhan-mantri-matru-vandana-yojana"
+  },
+  {
+    "name": "Rashtriya Swasthya Bima Yojana (RSBY) / State Health Schemes",
+    "ministry": "Ministry of Labour and Employment",
+    "category": "health",
+    "state": null,
+    "description": "Health insurance for BPL families and unorganised sector workers for cashless hospitalisation.",
+    "eligibility_text": "Workers in the unorganised sector and their families (up to five members including the head of household, spouse, and up to three dependants) belonging to Below Poverty Line (BPL) households are eligible. Additionally, MGNREGA workers who have worked for at least 15 days in the preceding financial year, construction workers registered under the Building and Other Construction Workers Act, and street vendors registered with ULBs are covered. The family must enrol at a designated enrolment station and pay a nominal annual premium (Rs 30 per family as the beneficiary share). Biometric identification (fingerprint and photograph) is collected at enrolment.",
+    "benefits_text": "Cashless hospitalisation up to Rs 30,000 per family per year (floater basis) at empanelled government and private hospitals. Covers pre-existing conditions from day one. Transport allowance of Rs 100 per visit up to Rs 1,000 per year. A smart card (RSBY card) is issued to the beneficiary family.",
+    "documents_required": ["BPL ration card", "Aadhaar Card or other identity proof for all family members", "MGNREGA Job Card (for MGNREGA workers)", "Photographs of all family members"],
+    "apply_url": "https://www.rsby.gov.in/"
+  }
+]

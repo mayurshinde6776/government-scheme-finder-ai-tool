@@ -8,16 +8,23 @@
     "dev": "nodemon",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "migrate": "ts-node -r dotenv/config src/db/migrate.ts",
+    "seed": "ts-node -r dotenv/config src/db/seed.ts",
+    "ingest": "ts-node -r dotenv/config src/pipeline/ingest.ts"
   },
   "dependencies": {
+    "axios": "^1.16.1",
+    "cheerio": "^1.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "openai": "^6.38.0",
     "pg": "^8.13.1",
     "pgvector": "^0.2.0"
   },
   "devDependencies": {
+    "@types/cheerio": "^1.0.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",

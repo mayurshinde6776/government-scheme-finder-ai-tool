@@ -1,17 +1,13 @@
 import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import cors from 'cors';
-import { Pool } from 'pg';
+import pool from './db/index';
 
 const app = express();
 const port = Number(process.env.PORT) || 4000;
 
 app.use(cors());
 app.use(express.json());
-
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-});
 
 app.get('/api/health', async (_req: Request, res: Response) => {
   try {
