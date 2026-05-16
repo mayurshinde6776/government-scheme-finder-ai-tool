@@ -3,7 +3,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://scheme-finder-backend.onrender.com/api/:path*"
+      "destination": "https://scheme-finder-backend-zotv.onrender.com/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }

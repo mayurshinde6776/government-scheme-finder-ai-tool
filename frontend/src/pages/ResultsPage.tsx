@@ -41,7 +41,8 @@ export function ResultsPage() {
   const { data, isLoading, isError, error } = useQuery<ApiResponse>({
     queryKey: ['eligibility', profileId],
     queryFn: async () => {
-      const res = await fetch('http://localhost:4000/api/eligibility', {
+      const baseUrl = import.meta.env.VITE_API_BASE_URL || '';
+      const res = await fetch(`${baseUrl}/api/eligibility`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
